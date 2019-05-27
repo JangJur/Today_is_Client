@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Logout"
+        android:title="로그아웃" />
+    <item
+        android:id="@+id/maker"
+        android:title="만든사람" />
+</menu>

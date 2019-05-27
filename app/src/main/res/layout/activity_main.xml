@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal100"
+    android:orientation="vertical"
+    tools:context="com.example.jur.today_is.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:foreground="@color/browser_actions_divider_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.tutsplus.dialogflowtutorial.MainActivity">
+
+        <com.github.bassaer.chatmessageview.view.ChatView
+            android:id="@+id/my_chat_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fui_bgGoogle">
+
+        </com.github.bassaer.chatmessageview.view.ChatView>
+
+    </FrameLayout>
+
+</LinearLayout>
